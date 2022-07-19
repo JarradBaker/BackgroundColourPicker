@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header + section div#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+}
+
+header + section div#grid-container div{
+    border: solid black 3px;
+}
+
+header + section div#grid-container div#grid-item-red{
+    background-color: red;
+}
+header + section div#grid-container div#grid-item-blue{
+    background-color: blue;
+}
+header + section div#grid-container div#grid-item-green{
+    background-color: green;
+}
+header + section div#grid-container div#grid-item-brown{
+    background-color: brown;
+}
+header + section div#grid-container div#grid-item-pink{
+    background-color: pink;
+}
